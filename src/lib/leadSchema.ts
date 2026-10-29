@@ -40,10 +40,10 @@ export const leadSchema = z.object({
 
 export type LeadValues = z.infer<typeof leadSchema>;
 
-/** Ответ API: ok + mode ("webhook" | "demo") либо ошибка валидации. */
+/** Ответ API: ok + mode ("webhook" | "email" | "demo") либо ошибка валидации. */
 export interface LeadApiResponse {
   ok: boolean;
-  mode?: "webhook" | "demo";
+  mode?: "webhook" | "email" | "demo";
   error?: string;
   /** Поля, не прошедшие серверную валидацию */
   fields?: Record<string, string>;
