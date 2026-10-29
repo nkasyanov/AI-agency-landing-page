@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="850" cy="200" r="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#08090C"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <text x="90" y="230" font-family="Inter, system-ui, sans-serif" font-size="34" font-weight="600" letter-spacing="6" fill="#989EAA">NEXAFLOW · AI AUTOMATION AGENCY</text>
+  <text x="90" y="330" font-family="Inter, system-ui, sans-serif" font-size="88" font-weight="700" fill="#F5F7FA">Ваш бизнес.</text>
+  <text x="90" y="430" font-family="Inter, system-ui, sans-serif" font-size="88" font-weight="700" fill="url(#accent)">На автопилоте.</text>
+  <text x="90" y="510" font-family="Inter, system-ui, sans-serif" font-size="30" fill="#989EAA">ИИ-агенты и автоматизация бизнес-процессов — 24/7</text>
+  <circle cx="980" cy="380" r="56" fill="url(#accent)" opacity="0.9"/>
+  <circle cx="820" cy="200" r="20" fill="none" stroke="url(#accent)" stroke-width="6"/>
+  <circle cx="1120" cy="180" r="20" fill="none" stroke="url(#accent)" stroke-width="6"/>
+  <circle cx="1120" cy="520" r="20" fill="none" stroke="url(#accent)" stroke-width="6"/>
+  <path d="M838 216 L940 344 M1102 200 L1002 342 M1102 502 L1002 416" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</svg>
